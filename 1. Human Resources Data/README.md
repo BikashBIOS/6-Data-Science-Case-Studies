@@ -743,13 +743,6 @@ cd hr-attrition-prediction
 pip install pandas numpy matplotlib seaborn scikit-learn tensorflow
 ```
 
-### Running in Google Colab
-
-1. Upload `Human_Resources.csv` to your Google Drive under `My Drive/Colab Notebooks/1. Human Resources Data/`
-2. Open `1_Human_Resources_Department.ipynb` in Google Colab
-3. Mount Google Drive when prompted
-4. Run all cells sequentially (`Runtime → Run all`)
-
 ### Running Locally
 
 ```bash
@@ -764,24 +757,6 @@ employee_df = pd.read_csv('Human_Resources.csv')   # local path
 
 ---
 
-## 📌 Future Improvements
-
-- **Handle Class Imbalance** — Apply SMOTE (Synthetic Minority Oversampling Technique) to improve minority class recall
-- **Hyperparameter Tuning** — GridSearchCV for Logistic Regression and Random Forest
-- **Feature Importance** — Extract and visualize Random Forest feature importances
-- **Cross-Validation** — K-Fold CV for more robust performance estimates
-- **Regularization in ANN** — Add Dropout layers to reduce overfitting
-- **Threshold Tuning** — Adjust classification threshold (e.g., 0.3) to prioritize recall for at-risk employees
-- **SHAP Values** — Model explainability for HR stakeholder communication
-- **Deployment** — Wrap model in Flask/FastAPI REST API for HR system integration
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
-
----
 
 ## 🙏 Acknowledgements
 
