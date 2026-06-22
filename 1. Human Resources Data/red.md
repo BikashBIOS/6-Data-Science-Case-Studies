@@ -6,7 +6,6 @@
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange?logo=tensorflow)](https://tensorflow.org)
 [![Scikit-Learn](https://img.shields.io/badge/scikit--learn-latest-green?logo=scikitlearn)](https://scikit-learn.org)
 [![Keras](https://img.shields.io/badge/Keras-ANN-red?logo=keras)](https://keras.io)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ---
 
@@ -71,7 +70,6 @@ Three classification approaches are implemented and compared:
 | Stayed | 0 | 1,233 | **83.9%** |
 | Left | 1 | 237 | **16.1%** |
 
-> ⚠️ **Class Imbalance noted:** The dataset is imbalanced — only ~16% of employees left. This affects model recall for the minority class.
 
 ### Feature Categories
 
