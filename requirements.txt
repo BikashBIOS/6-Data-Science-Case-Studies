@@ -6,5 +6,10 @@ scikit-learn
 tensorflow
 ipykernel
 prophet
+opencv-python
+nltk
+wordcloud
+
+
 
 
