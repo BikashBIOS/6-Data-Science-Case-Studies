@@ -747,7 +747,7 @@ pip install pandas numpy matplotlib seaborn scikit-learn tensorflow
 
 ```bash
 # Launch Jupyter
-jupyter notebook 1_Human_Resources_Department.ipynb
+jupyter notebook hr_data.ipynb
 ```
 
 Update the dataset path in Task #2:
